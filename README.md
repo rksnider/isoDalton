@@ -1,12 +1,11 @@
 # isoDalton
-
-The Matlab files implement isoDalton, which computes the isotopic mass distributions
-of a given molecule.
-
-This software is associated with the following paper:
+isoDalton is a program to compute the exact masses found in an isotopic distribution.  This software is associated with the following paper:
 Snider, R.K. Efficient Calculation of Exact Mass Isotopic Distributions
 J Am Soc Mass Spectrom 2007, Vol 18/8 pp. 1511-1515.
 The digital object identifier (DOI) link to paper:  http://dx.doi.org/10.1016/j.jasms.2007.05.016
+
+Paper Abstract:
+This paper presents a new method for efficiently calculating the exact masses in an isotopic distribution using a dynamic programming approach. The resulting program, isoDalton, can generate extremely high isotopic resolutions as demonstrated by a FWHM resolution of 2 × 1011. This resolution allows very fine mass structures in isotopic distributions to be seen, even for large molecules. Since the number of exact masses grows exponentially with molecular size, only the most probable exact masses are kept, the number of which is user specified.
 
 ------------------------------------------------------------------------------
 
@@ -17,7 +16,7 @@ A C version of isoDalton has been developed.  isoDalton can generate the fine is
 -------------------------------------------------------------------------------
 C Installation:
 -------------------------------------------------------------------------------
-See document C_installation in C directory
+See document c_installation.pdf in the \C directory
 
 -------------------------------------------------------------------------------
 Matlab Installation:
@@ -31,8 +30,6 @@ There are three demos:
 demo_glycine1.m          
 demo_glycine2.m
 demo_bovine_insuline.m
-
-
 
 -------------------------------------------------------------------------------
 Usage (exact mass):
@@ -69,65 +66,12 @@ states = isoDalton_exact_mass(molecule_string,maxstates);
 
 
 -------------------------------------------------------------------------------
-Isotopic Compositions
+Modifying Isotopic Compositions
+Matlab Example
 -------------------------------------------------------------------------------
 To change isotopic compositions, modify file isoDalton_modify_isotope_composition.m
 and uncomment the example below the line: 
 -----------     User Input Below this Line -------------------
 and modify the example.
-
-
-
--------------------------------------------------------------------------------
-Files:  (not complete yet....)
--------------------------------------------------------------------------------
-isoDalton_NIST_all_isotopes.txt      
-            list of all the isotopes for elements 1:112  
-            from   http://physics.nist.gov/PhysRefData/Compositions/index.html
-read by :   isoDalton_NIST_isotopes_read()
-------------
-isoDalton_NIST_isotopes_read() 
-            reads the file isoDalton_NIST_all_isotopes.txt to get isotope information
-parent   :  isoDalton_get_isotope_info()
-children :  none
-------------
-isoDalton_get_isotope_info()
-            puts the isotope information in a more usable/structured form
-parent   :  isoDalton_get_molecule_isotopes()
-children :  isoDalton_NIST_isotopes_read()
-            isoDalton_element_symbols_read()
-            isoDalton_modify_isotope_composition()
-------------
-isoDalton_element_symbols_read()
-            reads the file isoDalton_element_symbols.txt to get element symbols
-parent   :  isoDalton_get_isotope_info()
-children :  none
-------------
-isoDalton_element_symbols.txt
-            list of symbols for all the elements
-            from http://www.chem.qmul.ac.uk/iupac/AtWt/
-read by  :  isoDalton_element_symbols_read()
-------------
-isoDalton_modify_isotope_composition()
-            allows the user to change isotopic compositions for the elements
-parent   :  isoDalton_get_isotope_info()
-children :  none
-------------
-isoDalton_get_molecule_isotopes()
-            gets the isotope information for elements in the molecule string
-parent   :  isoDalton_exact_mass()
-children :  isoDalton_get_isotope_info()
-            isoDalton_element_symbols_read()
-            isoDalton_element_sym2num()
-------------
-isoDalton_element_sym2num()
-            returns the atomic number for a given element symbol
-parent   :  isoDalton_get_molecule_isotopes()
-children :  none
-------------
-isoDalton_exact_mass()
-
-
-
 
 
