@@ -58,12 +58,11 @@ maxstates = 1000;          % maximum number of states
 states = isoDalton_exact_mass(molecule_string,maxstates);   
 
 -------------------------------------------------------------------------------
-Modifying Isotopic Compositions
-Matlab Example
--------------------------------------------------------------------------------
+Modifying Isotopic Compositions  
+Matlab Example:  
 To change isotopic compositions, modify file isoDalton_modify_isotope_composition.m
-and uncomment the example below the line: 
------------     User Input Below this Line -------------------
+and uncomment the example below the line:  
+-----------     User Input Below this Line -------------------   
 and modify the example.
 
 
