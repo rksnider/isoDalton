@@ -44,24 +44,18 @@ isoDalton_exact_mass(molecule_string,maxstates);
          molecule_string = 'C254 H377 N65 O75 S6 Fe2';   
          molecule_string = 'C254H377N65O75S6Fe2';   
          molecule_string = 'C 254 H 377 N 65 O 75 S 6 Fe 2';   
-
          maxstates : maximum number of mass states
                      set maxstates = realmax; if one wishes to keep *ALL* the states.  Note that this
                      is practical only for small molecules, since for large molecules this will slow
-                     to a catatonic crawl and run out of memory.
-
+                     to a catatonic crawl and run out of memory.   
  Output:  	returns a two column matrix where the first column contains the exact masses
            (most probable ones) and the second column are the probabilities (pruned).
----------------------------------------------------------------------------------------------------
-Example:
 
+ ---------------------------------------------------------------------------------------------------
+Example:  
 molecule_string = 'C2 H5 N1 O2';  % glycine   
 maxstates = 1000;          % maximum number of states   
 states = isoDalton_exact_mass(molecule_string,maxstates);   
-
-
-
-
 
 -------------------------------------------------------------------------------
 Modifying Isotopic Compositions
