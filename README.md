@@ -9,9 +9,32 @@ J Am Soc Mass Spectrom 2007, Vol 18/8 pp. 1511-1515.
 The digital object identifier (DOI) link to paper:  http://dx.doi.org/10.1016/j.jasms.2007.05.016
 
 -------------------------------------------------------------------------------
-Installation:
+Matlab Installation:
 -------------------------------------------------------------------------------
-Create a directory named isoDalton and then set Matlab's path to this directory.
+Create a directory named isoDalton, copy all the files in the Matlab directory
+into \isoDalton, and then set Matlab's path to this directory.
+
+
+
+A C version of isoDalton has been developed.  isoDalton can generate the fine isotopic structure given any molecular formula.  It is much faster than the Matlab version. The table below gives the speedup for bovine insulin.
+
+![image](https://user-images.githubusercontent.com/5913180/232347394-7e8b52d2-05a9-4d35-b98c-d4f921f36720.png)
+
+
+IsoDalton run times for Bovine Insulin [C254 H378 N65 O75 S6]
+States
+(most probable masses)	Matlab
+(time in seconds)	C
+(time in seconds)	Speedup
+100	4.6499	0.0780	59.60
+1,000	28.9499	0.5780	50.08
+10,000	239.7523	7.0470	34.02
+Matlab (2009b), C program using Visual Studio 2005, run on a Windows XP computer (Dell Precision WorkStation 390, Core 2 CPU 6300 @ 1.862 GHz, 4 GB RAM)
+
+-------------------------------------------------------------------------------
+C Installation:
+-------------------------------------------------------------------------------
+See document C_installation in C directory
 
 
 -------------------------------------------------------------------------------
