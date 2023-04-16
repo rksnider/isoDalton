@@ -6,6 +6,12 @@
 %               of Bovine insulin (figure 1) and zooms in on the 
 %               5736.6 peak area (figure 2)
 %--------------------------------------------------------------------------
+% This software is associated with the following paper:
+% Snider, R.K. Efficient Calculation of Exact Mass Isotopic Distributions
+% J Am Soc Mass Spectrom 2007, Vol 18/8 pp. 1511-1515.
+% The digital object identifier (DOI) link to paper:  
+% http://dx.doi.org/10.1016/j.jasms.2007.05.016
+%--------------------------------------------------------------------------
 % Author:       Ross K. Snider
 % Company:      Montana State University
 % Create Date:  April 27, 2006
