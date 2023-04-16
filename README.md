@@ -11,15 +11,14 @@ The digital object identifier (DOI) link to paper:  http://dx.doi.org/10.1016/j.
 -------------------------------------------------------------------------------
 Installation:
 -------------------------------------------------------------------------------
-Unzip to a directory named isoDalton and then set Matlab's path to this 
-directory.
+Create a directory named isoDalton and then set Matlab's path to this directory.
 
 
 -------------------------------------------------------------------------------
 There are three demos:
 -------------------------------------------------------------------------------
 demo_glycine1.m          
-demo_glycine2.m
+demo_glycine2.m 
 demo_bovine_insuline.m
 
 
