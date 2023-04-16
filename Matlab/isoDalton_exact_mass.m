@@ -1,7 +1,7 @@
 % SPDX-License-Identifier: MIT
 % Copyright (c) 2006 Ross K. Snider.  All rights reserved.
 %--------------------------------------------------------------------------
-% Description:  soDalton_exact_mass.m 
+% Description:  isoDalton_exact_mass.m 
 %               Returns the exact mass isotopic distribution of a molecule
 %--------------------------------------------------------------------------
 % Input:  molecule_string :
