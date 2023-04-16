@@ -18,7 +18,7 @@ Create a directory named isoDalton and then set Matlab's path to this directory.
 There are three demos:
 -------------------------------------------------------------------------------
 demo_glycine1.m          
-demo_glycine2.m 
+demo_glycine2.m
 demo_bovine_insuline.m
 
 
