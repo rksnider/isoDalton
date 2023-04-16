@@ -32,7 +32,7 @@ demo_glycine2.m
 demo_bovine_insuline.m
 
 -------------------------------------------------------------------------------
-Usage (exact mass):
+Usage (exact mass):   
 isoDalton_exact_mass(molecule_string,maxstates);
 -------------------------------------------------------------------------------
 
