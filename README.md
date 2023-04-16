@@ -1,5 +1,5 @@
 # isoDalton
-isoDalton is a program to compute the exact masses found in an isotopic distribution.  This software is associated with the following paper:
+isoDalton is a program to compute the exact masses found in an isotopic distribution.  The software in this repository is associated with the following paper:
 Snider, R.K. Efficient Calculation of Exact Mass Isotopic Distributions
 J Am Soc Mass Spectrom 2007, Vol 18/8 pp. 1511-1515.
 The digital object identifier (DOI) link to paper:  http://dx.doi.org/10.1016/j.jasms.2007.05.016
