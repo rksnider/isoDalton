@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--For isotope entries the <mass_number> must be present. 
+       The <mass> entry may or may not be present. 
+       The <fraction> entry may or may not be present.  -->
+<user_isotopes>
+   <element><atomic_number>1</atomic_number><name>hydrogen</name><symbol>H</symbol>
+      <isotope><mass_number>1</mass_number><mass>1.0078250321</mass><fraction>0.999885</fraction></isotope>
+      <isotope><mass_number>2</mass_number><mass>2.0141017780</mass><fraction>0.000115</fraction></isotope>
+   </element>
+   <element><atomic_number>6</atomic_number><name>carbon</name><symbol>C</symbol>
+      <isotope><mass_number>12</mass_number><mass>12.0000000000</mass><fraction>0.989300</fraction></isotope>
+      <isotope><mass_number>13</mass_number><mass>13.0033548378</mass><fraction>0.010700</fraction></isotope>
+    </element>
+   <element><atomic_number>7</atomic_number><name>nitrogen</name><symbol>N</symbol>
+      <isotope><mass_number>14</mass_number><mass>14.0030740052</mass><fraction>0.99632</fraction></isotope>
+      <isotope><mass_number>15</mass_number><mass>15.0001088984</mass><fraction>0.00368</fraction></isotope>
+   </element>
+  <element><atomic_number>8</atomic_number><name>oxygen</name><symbol>O</symbol>
+      <isotope><mass_number>16</mass_number><mass>15.9949146221</mass><fraction>0.997570</fraction></isotope>
+      <isotope><mass_number>17</mass_number><mass>16.9991315000</mass><fraction>0.000380</fraction></isotope>
+      <isotope><mass_number>18</mass_number><mass>17.9991604000</mass><fraction>0.002050</fraction></isotope>
+   </element>
+   <element><atomic_number>16</atomic_number><name>sulfur</name><symbol>S</symbol>
+      <isotope><mass_number>32</mass_number><mass>31.97207069</mass><fraction>0.949300</fraction></isotope>
+      <isotope><mass_number>33</mass_number><mass>32.97145850</mass><fraction>0.007600</fraction></isotope>
+      <isotope><mass_number>34</mass_number><mass>33.96786683</mass><fraction>0.042900</fraction></isotope>
+      <isotope><mass_number>36</mass_number><mass>35.96708088</mass><fraction>0.000200</fraction></isotope>
+    </element>
+</user_isotopes>
