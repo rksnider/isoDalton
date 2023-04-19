@@ -41,7 +41,7 @@ struct isotope_info {
 	//---------------------------------------------------------------------------------------------
 	// Relative Atomic Mass (of the isotope):  Ar(X), where X is an isotope
 	// formerly called atomic weight (see Standard Atomic Weight)
-    // These values are scaled to Ar(12C) = 12, where 12C is a neutral atom 
+        // These values are scaled to Ar(12C) = 12, where 12C is a neutral atom 
 	// in its nuclear and electronic ground state. 
 	// Thus, the relative atomic mass of entity X is given by: 
 	// Ar(X) = m(X) / [m(12C) / 12] . 
@@ -52,7 +52,7 @@ struct isotope_info {
 	double AtomicMass;
 	//---------------------------------------------------------------------------------------------
 	// Representative Isotopic Composition (%):  Mole fraction of the various isotopes
-    // In the opinion of the Subcommittee for Isotopic Abundance Measurements (SIAM), 
+        // In the opinion of the Subcommittee for Isotopic Abundance Measurements (SIAM), 
 	// these values represent the isotopic composition of the chemicals and/or materials 
 	// most commonly encountered in the laboratory. They may not, therefore, 
 	// correspond to the most abundant natural material. 
